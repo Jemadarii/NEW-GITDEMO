@@ -1,0 +1,48 @@
+/* Style the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the heading */
+h1 {
+    color: #100f0f;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Style the paragraph */
+p {
+    color: #666;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Active styles when a class is applied */
+.active {
+    background-color: #3498db;
+    color: #fff;
+}
+/* Center the button */
+button {
+    /* Your existing styles */
+    background-color: #171718;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+
+    /* Centering styles */
+    display: block;
+    margin: 0 auto;
+}
+
+/* Additional styles when the button is hovered */
+button:hover {
+    background-color: #a81f1f;
+}
